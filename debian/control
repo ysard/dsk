@@ -1,0 +1,22 @@
+Source: dsk
+Section: science
+Priority: optional
+Maintainer: Pierre Vignet <pierre.vignet.contact@caramail.fr>
+Build-Depends: debhelper (>= 9), cmake
+Standards-Version: 3.9.5
+Homepage: https://github.com/GATB/dsk
+#Vcs-Git: git://anonscm.debian.org/collab-maint/dsk.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/dsk.git;a=summary
+
+Package: dsk
+Architecture: any
+Recommends: gatbcore-tools
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: k-mer counting software
+ DSK is a k-mer counter for reads or genomes.
+ .
+ It takes as input a set of sequences in FASTA or FASTQ format 
+ (see "Input" section). DSK outputs a set of solid kmers, i.e. kmers which 
+ occur more than a minimal amount of times in the input (-abundance-min 
+ parameter). It also outputs the number of times these kmers occur. 
+ See "Results visualization" section to learn how to use its output.

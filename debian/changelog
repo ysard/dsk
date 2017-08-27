@@ -1,0 +1,14 @@
+dsk (2.2.0-2) UNRELEASED; urgency=medium
+
+  * Ability to find a compile against libgatbcore previously installed on
+  the system.
+  
+  * Remove unwanted files from install directive.
+
+ -- Pierre Vignet <pierre.vignet.contact@caramail.fr>  Sat, 22 Jul 2017 23:38:27 +0200
+
+dsk (2.2.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Pierre Vignet <pierre.vignet.contact@caramail.fr>  Sat, 22 Jul 2017 22:45:35 +0200
